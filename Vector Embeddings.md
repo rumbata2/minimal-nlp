@@ -43,7 +43,7 @@ We define a **term-document matrix** - words are rows and documents are columns 
 \hspace {1mm} \underbrace{log_{10}\left(\frac{N}{df_t}\right)}_{idf_t}$  
 - **tf-idf** weight: $log_{10}(count(t,d) + 1) * 
 \left(\frac{N}{df_t}\right)$  
-- **tf-idf** weight: $tf_{t,d} \,\,\,\, * \,\, idf_t$
+- **tf-idf** weight: $tf_{t,d} * \enspace idf_t$
 
 
 
