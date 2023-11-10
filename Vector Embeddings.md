@@ -41,7 +41,7 @@ We define a **term-document matrix** - words are rows and documents are columns 
 - $count(t,d)$, which counts how many times the term (word) $t$ appears in the document $d$.
 - **tf-idf** weight: $\hspace{1mm} \underbrace{log_{10}(count(t,d) + 1)}_{tf_{t,d}} \hspace{1mm} * 
 \hspace {1mm} \underbrace{log_{10}\left(\frac{N}{df_t}\right)}_{idf_t}$  
-- **tf-idf** weight: $(count(t,d) + 1) * 
+- **tf-idf** weight: $log_{10}(count(t,d) + 1) * 
 \left(\frac{N}{df_t}\right)$  
 
 
