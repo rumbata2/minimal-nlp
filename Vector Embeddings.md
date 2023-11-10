@@ -37,13 +37,13 @@ For a long time though, Tyler and I were best friends. People are always asking,
 The barrel of the gun pressed against the back of my throat, Tyler says 'We really won't die.'
 </details>
 
-We define a **term-document matrix** - words are rows and documents are columns (or vice versa). Each entry is a scalar. We choose one of several options to give the words a "weight". In approximately ascending sophistication:
+We define a **term-document matrix** - words are rows and documents are columns (or vice versa). Each entry is a scalar. We choose one of several options to give the words a "weight". In roughly ascending sophistication:
 - $count(t,d)$, which counts how many times the term (word) $t$ appears in the document $d$.
 - **tf-idf** weight: $\hspace{1mm} \underbrace{log_{10}(count(t,d) + 1)}_{tf_{t,d}} \hspace{1mm} * 
 \hspace {1mm} \underbrace{log_{10}\left(\frac{N}{df_t}\right)}_{idf_t}$  
 - **tf-idf** weight: $log_{10}(count(t,d) + 1) * 
 \left(\frac{N}{df_t}\right)$  
-
+- **tf-idf** weight:$\hspace{1mm} x \hspace{1mm} y $
 
 
 
