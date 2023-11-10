@@ -65,3 +65,12 @@ Push a button.
 You don't understand any of it, and then you just die.
 
 </details>
+
+
+```python
+
+some code
+def f(x): 
+    return x
+
+```
