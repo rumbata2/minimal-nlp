@@ -39,8 +39,8 @@ The barrel of the gun pressed against the back of my throat, Tyler says 'We real
 
 We define a **term-document matrix** - words are rows and documents are columns (or vice versa). Each entry is a scalar. We choose one of several options to give the words a "weight". In roughly ascending sophistication:
 - $count(t,d)$, which counts how many times the term (word) $t$ appears in the document $d$.
-- **tf-idf** weight: $\hspace{1mm} \underbrace{log_{10}(count(t,d) + 1)}_{tf_{t,d}} \hspace{1mm} * 
-\hspace {1mm} \underbrace{log_{10}\left(\frac{N}{df_t}\right)}_{idf_t}$  
+- **tf-idf** weight: $\enspace \underbrace{log_{10}(count(t,d) + 1)}_{tf_{t,d}} \enspace * 
+\enspace \underbrace{log_{10}\left(\frac{N}{df_t}\right)}_{idf_t}$  
 - **tf-idf** weight: $log_{10}(count(t,d) + 1) * 
 \left(\frac{N}{df_t}\right)$  
 - **tf-idf** weight: $\underbrace{tf_{t,d}}_{x} \enspace * \enspace idf_t$
