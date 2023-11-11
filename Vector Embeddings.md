@@ -50,19 +50,7 @@ where
 <details open>
     <summary>asd</summary>
 
-<div align="center">
-|       | doc1 | doc2 |
-|------:|-----:|-----:|
-|  dish |    1 |    0 |
-| acids |    1 |    0 |
-| tyler |    0 |    5 |
-|   gun |    0 |    2 |
 
-asdfasdf
-
-</div>
-
-<p style="text-align: center;">
 |       | doc1 | doc2 |
 |------:|-----:|-----:|
 |  dish |    1 |    0 |
@@ -71,36 +59,5 @@ asdfasdf
 |   gun |    0 |    2 |
 
 
-A piece of centered text</p>
 
 </details>
-
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 30%">
-| Item         | Price | # In stock |
-|--------------|:-----:|-----------:|
-| Juicy Apples |  1.99 |        739 |
-| Bananas      |  1.89 |          6 |
-</div>
-<div align="center">
-| Item         | Price | # In stock |
-|--------------|:-----:|-----------:|
-| Juicy Apples |  1.99 |        739 |
-| Bananas      |  1.89 |          6 |
-</div>
-
-
-
-<div align="center">
-| Item         | Price | # In stock |
-|--------------|:-----:|-----------:|
-| Juicy Apples |  1.99 |        739 |
-| Bananas      |  1.89 |          6 |
-</div>
-
-<table style="margin-left: auto; margin-right: auto;">
-  <tr><th>Item</th>           <th>Price</th>      <th># In stock</th></tr>
-  <tr><td>Juicy Apples</td>   <td>1.99</td>       <td>739</td></tr>
-  <tr><td>Bananas</td>        <td>1.89</td>       <td>6</td></tr>
-</table>
