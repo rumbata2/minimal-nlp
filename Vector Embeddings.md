@@ -1,8 +1,12 @@
-In natural language, the syntax of different words may not at all be related to their semantics:
+In natural language, the syntax of different words may not at all be related to their semantics.
+<details>
+    <summary>Examples (optional)</summary>  
 - *beautiful* and *attractive* have mostly the same meaning
 - *beautiful* and *ugly* have mostly the opposite meaning
 - *cat* and *dog* are not the same but they have \*some\* similarity
 - *basketball* and *hoop* are not the same but they belong to the same [semantic field](https://en.wikipedia.org/wiki/Semantic_field)
+</details>  
+<br/>
 
 In order to capture meaning, we use **vector embeddings** - words will be points in the euclidean space $\mathbb{R}^n$. Their meaning will be inferred from the context in which they occur - the **documents** they belong to, and/or around the words around them.
 
@@ -19,7 +23,7 @@ and so on.
 
 Consider the following documents:
 
-<details>
+<details open>
     <summary>doc1.txt (shortened)</summary>
 
 Cooking acids tend to be mellow, transforming the foods with which they are cooked slowly, over time.
@@ -28,7 +32,7 @@ I learned this painful lesson when at the request of a distant relative, I tried
 where wine isn’t readily available. No matter what I did, I couldn’t get the dish to taste right without that crucial ingredient.
 </details>
 
-<details>
+<details open>
     <summary>doc2.txt (shortened)</summary>
 
 Tyler gets me a job as a waiter, after that Tyler's pushing a gun in my mouth and saying, the first step to eternal life is you have to die. 
@@ -36,6 +40,7 @@ For a long time though, Tyler and I were best friends. People are always asking,
 
 The barrel of the gun pressed against the back of my throat, Tyler says 'We really won't die.'
 </details>
+<br/>
 
 We define a **term-document matrix** - words are rows and documents are columns (or vice versa). Each entry is a scalar. We choose one of two options to give the words a "weight". 
 - $count(t,d)$, which counts how many times the term (word) $t$ appears in the document $d$.
