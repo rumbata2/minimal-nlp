@@ -1,7 +1,7 @@
 In natural language, the syntax of different words may not at all be related to their semantics.
 <details>
     <summary>Examples (optional)</summary>  
-    
+
 - *beautiful* and *attractive* have mostly the same meaning
 - *beautiful* and *ugly* have mostly the opposite meaning
 - *cat* and *dog* are not the same but they have \*some\* similarity
@@ -27,7 +27,7 @@ Consider the following documents:
 <details open>
     <summary>doc1.txt (shortened)</summary>
 
-Cooking acids tend to be mellow, transforming the foods with which they are cooked slowly, over time.
+>Cooking acids tend to be mellow, transforming the foods with which they are cooked slowly, over time.
 They can be extraordinarily subtle; while their presence may go undetected, their absence is sharply felt.
 I learned this painful lesson when at the request of a distant relative, I tried to make beef bourguignon without the Bourgogne in Iran,
 where wine isn’t readily available. No matter what I did, I couldn’t get the dish to taste right without that crucial ingredient.
@@ -36,10 +36,10 @@ where wine isn’t readily available. No matter what I did, I couldn’t get the
 <details open>
     <summary>doc2.txt (shortened)</summary>
 
-Tyler gets me a job as a waiter, after that Tyler's pushing a gun in my mouth and saying, the first step to eternal life is you have to die. 
+>Tyler gets me a job as a waiter, after that Tyler's pushing a gun in my mouth and saying, the first step to eternal life is you have to die. 
 For a long time though, Tyler and I were best friends. People are always asking, did I know about Tyler Durden.
-
-The barrel of the gun pressed against the back of my throat, Tyler says 'We really won't die.'
+>
+>The barrel of the gun pressed against the back of my throat, Tyler says 'We really won't die.'
 </details>
 <br/>
 
