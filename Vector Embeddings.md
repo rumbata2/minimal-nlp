@@ -188,7 +188,7 @@ The vector rows in the matrix are the word (term) embeddings and the vector colu
 
 In this case, the **vocabulary** is the set of all $106$ words seen in at least one document, though in a more general context the vocabulary may be chosen by us explicitly or by heuristic rules - if the documents include words not in the vocabulary, we may include an $\langle UNKNOWN \rangle$ term instead to capture all of them.
 
-A general term-document matrix will then be of dimension $|V| \times N_{doc}$, where $V$ is the vocabulary $N_{doc}$ is the number of documents in the corpus.
+A general term-document matrix will then be of dimension $|V| \times N_{doc}$, where $V$ is the vocabulary and $N_{doc}$ is the number of documents in the corpus.
 
 <details>
     <summary>Intuition</summary>
