@@ -1,6 +1,7 @@
 In natural language, the syntax of different words may not at all be related to their semantics.
 <details>
     <summary>Examples (optional)</summary>  
+    
 - *beautiful* and *attractive* have mostly the same meaning
 - *beautiful* and *ugly* have mostly the opposite meaning
 - *cat* and *dog* are not the same but they have \*some\* similarity
