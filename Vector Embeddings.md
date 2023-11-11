@@ -37,11 +37,70 @@ For a long time though, Tyler and I were best friends. People are always asking,
 The barrel of the gun pressed against the back of my throat, Tyler says 'We really won't die.'
 </details>
 
-We define a **term-document matrix** - words are rows and documents are columns (or vice versa). Each entry is a scalar. We choose one of several options to give the words a "weight". In roughly ascending sophistication:
+We define a **term-document matrix** - words are rows and documents are columns (or vice versa). Each entry is a scalar. We choose one of two options to give the words a "weight". 
 - $count(t,d)$, which counts how many times the term (word) $t$ appears in the document $d$.
-- **tf-idf** weight: $`\underbrace{log_{10}(count(t,d) + 1)}_{tf(t,d)} \hspace{1mm} * \enspace \underbrace{log_{10}\left(\frac{N}{df(t)}\right)}_{idf(t)}`$
+- **tf-idf** weight: $`\underbrace{log_{10}(count(t,d) + 1)}_{tf(t,d)} \hspace{1mm} * \enspace \underbrace{log_{10}\left(\frac{N}{df(t)}\right)}_{idf(t)}`$  
+where
+  - $tf(t,d)$ is the **term frequency** of the word $t$ with respect to document $d$.  
+  We take the logarithm of the count to induce diminishing returns on its importance. Since we can not take the logarithm of $0$, we add $1$ beforehand.
+  - $df(t)$ is the **document frequency** of the word $t$ - the number of documents it occurs in. Note that the minimum is $1$ and the maximum is $N$, where $N$ is the total number of documents.
+  - $idf(t)$ is the **inverse document frequency** of the word $t$. If a term appears in a small part of all documents, it is considered more representative of the documents it resides in (hence this weight grows) and vice versa. Again we take the base $10$ logarithm for diminishing returns purposes.
+
+
+<details open>
+    <summary>asd</summary>
+
+<div align="center">
+|       | doc1 | doc2 |
+|------:|-----:|-----:|
+|  dish |    1 |    0 |
+| acids |    1 |    0 |
+| tyler |    0 |    5 |
+|   gun |    0 |    2 |
+
+asdfasdf
+
+</div>
+
+<p style="text-align: center;">
+|       | doc1 | doc2 |
+|------:|-----:|-----:|
+|  dish |    1 |    0 |
+| acids |    1 |    0 |
+| tyler |    0 |    5 |
+|   gun |    0 |    2 |
+
+
+A piece of centered text</p>
+
+</details>
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 30%">
+| Item         | Price | # In stock |
+|--------------|:-----:|-----------:|
+| Juicy Apples |  1.99 |        739 |
+| Bananas      |  1.89 |          6 |
+</div>
+<div align="center">
+| Item         | Price | # In stock |
+|--------------|:-----:|-----------:|
+| Juicy Apples |  1.99 |        739 |
+| Bananas      |  1.89 |          6 |
+</div>
 
 
 
+<div align="center">
+| Item         | Price | # In stock |
+|--------------|:-----:|-----------:|
+| Juicy Apples |  1.99 |        739 |
+| Bananas      |  1.89 |          6 |
+</div>
 
-
+<table style="margin-left: auto; margin-right: auto;">
+  <tr><th>Item</th>           <th>Price</th>      <th># In stock</th></tr>
+  <tr><td>Juicy Apples</td>   <td>1.99</td>       <td>739</td></tr>
+  <tr><td>Bananas</td>        <td>1.89</td>       <td>6</td></tr>
+</table>
