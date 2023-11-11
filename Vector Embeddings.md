@@ -7,7 +7,7 @@ In natural language, the syntax of different words may not at all be related to 
 - *cat* and *dog* are not the same but they have \*some\* similarity
 - *basketball* and *hoop* are not the same but they belong to the same [semantic field](https://en.wikipedia.org/wiki/Semantic_field)
 </details>  
-<br/>
+
 
 In order to capture meaning, we use **vector embeddings** - words will be points in the euclidean space $\mathbb{R}^n$. Their meaning will be inferred from the context in which they occur - the **documents** they belong to, and/or around the words around them.
 
