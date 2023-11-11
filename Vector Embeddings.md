@@ -16,7 +16,7 @@ In order to capture meaning, we use **vector embeddings** - words will be points
 
 A document is a piece of text, one element of a dataset (corpus). For statistical learning purposes, documents are often annotated with additional data, for example the category they belong to. Sample datasets may then look like:  
 - $\{(d_1, c_1), (d_2, c_1), (d_3, c_2), (d_4, c_2), (d_5, c_2)\}$ 
-- $\{(\text{"this movie sucks"}, \text{negative}), (\text{"Breathtaking from start to end!"}, \text{positive}) \}$.  
+- $\{(\text{"this movie sucks"}, \text{negative}), (\text{"Breathtaking from start to end!"}, \text{positive}) \}$
 
 and so on.
 </details>
