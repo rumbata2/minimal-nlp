@@ -1,6 +1,6 @@
 # minimal-nlp
 
-A collection of minimally constructed examples of various NLP concepts, as well as otherwise more general concepts viewed from an NLP perspective. 
+A collection of minimally constructed examples of various NLP concepts, as well as some more general concepts viewed from an NLP perspective. 
 
 &nbsp;
 
