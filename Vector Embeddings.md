@@ -448,8 +448,8 @@ Now that we captured the notion of context with linear algebra, we gain access t
 We recall the definition $$cos(\textbf{a}, \textbf{b}) = \dfrac{\textbf{a} \cdot \textbf{b}}{|\textbf{a}||\textbf{b}|}$$
 and use it to make formal comparisons:
 - $cos(\text{"dish", "tyler"}) = cos([3, 0]^T, [0, 9]^T) = 0.$
-- $cos("dish", "acid") = cos([3, 0]^T, [5, 3]^T) \approx 0.857$
-- $cos("tyler", "acid") = cos([0, 9]^T, [5, 3]^T) \approx 0.514$
+- $cos(\text{"dish", "acid"}) = cos([3, 0]^T, [5, 3]^T) \approx 0.857$
+- $cos(\text{"tyler", "acid"}) = cos([0, 9]^T, [5, 3]^T) \approx 0.514$
 
 The words "dish" and "tyler" have no similarity since they appear in entirely different contexts;
 
