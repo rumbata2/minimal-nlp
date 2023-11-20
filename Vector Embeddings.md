@@ -447,7 +447,7 @@ A general term-document matrix will then be of dimension $|V| \times N_{doc}$, w
 Now that we captured the notion of context with linear algebra, we gain access to [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) as a tool to measure similarity between two words or between two documents. 
 We recall the definition $$cos(\textbf{a}, \textbf{b}) = \dfrac{\textbf{a} \cdot \textbf{b}}{|\textbf{a}||\textbf{b}|}$$
 and use it to make formal comparisons:
-- $cos("dish", "tyler") = cos([3, 0]^T, [0, 9]^T) = 0.$
+- $cos(\text{"dish", "tyler"}) = cos([3, 0]^T, [0, 9]^T) = 0.$
 - $cos("dish", "acid") = cos([3, 0]^T, [5, 3]^T) \approx 0.857$
 - $cos("tyler", "acid") = cos([0, 9]^T, [5, 3]^T) \approx 0.514$
 
